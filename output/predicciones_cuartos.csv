@@ -1,0 +1,5 @@
+match_id,fecha,equipo_local,equipo_visitante,prob_local,prob_empate,prob_visitante,pct_montecarlo_local,ganador_predicho,confianza,marcador_probable,ya_jugado
+97.0,2026-07-09,France,Morocco,0.582009625049565,0.21646072867600177,0.20152964627443318,0.7479,France,0.7479,2-0,False
+98.0,2026-07-11,England,Norway,0.58693751142839,0.249899269290954,0.16316321928065594,0.78,England,0.78,1-0,False
+99.0,2026-07-10,Belgium,Spain,0.2728862239780301,0.2444280311867597,0.4826857448352102,0.3609,Spain,0.6391,0-1,False
+100.0,2026-07-11,Switzerland,Argentina,0.19017332365247744,0.24925608121299384,0.5605705951345287,0.2538,Argentina,0.7462,0-1,False
