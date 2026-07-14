@@ -38,7 +38,7 @@ Proyecto_Predictivo_Futbol/
 ```
 
 ## Requisitos
-
+me llegas al pincho 
 - **Python 3.10 o superior** (probado con 3.13)
 - Las librerías listadas en `requirements.txt`: `pandas`, `numpy`, `scipy`,
   `scikit-learn`, `xgboost`, `joblib`, `matplotlib`
