@@ -17,18 +17,20 @@ con los 8 equipos que clasifican a Cuartos de Final (2 ya decididos en la
 cancha + 6 predichos por el modelo, cada uno con su % de confianza).
 ## Resultado
 
-### Tabla de predicciones (Octavos de Final)
+## Resultado
 
-| Fecha | Local | Visitante | Prob. Local | Prob. Empate | Prob. Visitante | Ganador predicho | Confianza | Marcador probable |
-|---|---|---|---|---|---|---|---|---|
-| 2026-07-04 | Canada | Morocco | 33.8% | 23.7% | 42.5% | **Morocco** | 56.1% | 0-2 |
-| 2026-07-04 | Paraguay | France | 15.6% | 26.1% | 58.3% | **France** | 78.1% | 0-1 |
-| 2026-07-05 | Brazil | Norway | 61.3% | 20.1% | 18.7% | **Brazil** | 77.0% | 1-0 |
-| 2026-07-05 | Mexico | England | 27.5% | 27.4% | 45.0% | **England** | 62.5% | 0-1 |
-| 2026-07-06 | Portugal | Spain | 28.9% | 25.6% | 45.5% | **Spain** | 61.1% | 0-1 |
-| 2026-07-06 | United States | Belgium | 28.9% | 25.0% | 46.2% | **Belgium** | 61.9% | 0-1 |
-| 2026-07-06 | Argentina | Egypt | 68.4% | 22.0% | 9.6% | **Argentina** | 87.9% | 2-0 |
-| 2026-07-06 | Switzerland | Colombia | 35.9% | 19.0% | 45.0% | **Colombia** | 56.0% | 0-1 |
+### Detalle numérico de cada cruce
+
+| Partido | Prob. Local | Prob. Empate | Prob. Visitante | Ganador predicho | Confianza (Monte Carlo) | Marcador probable |
+|---|---|---|---|---|---|---|
+| Francia 🆚 Marruecos | 58.2% | 21.6% | 20.2% | **Francia** | 74.8% | 2-0 |
+| Inglaterra 🆚 Noruega | 58.7% | 25.0% | 16.3% | **Inglaterra** | 78.0% | 1-0 |
+| Bélgica 🆚 España | 27.3% | 24.4% | 48.3% | **España** | 63.9% | 0-1 |
+| Suiza 🆚 Argentina | 19.0% | 24.9% | 56.1% | **Argentina** | 74.6% | 0-1 |
+
+*(Fuente: `output/predicciones_cuartos.csv`, corte de datos 2026-07-07. "Prob. Local/Empate/Visitante" son las probabilidades 1X2 del clasificador calibrado; "Confianza" es el % del ganador predicho tras la simulación de Monte Carlo con penaltis.)*
+
+**Semifinalistas predichos por el modelo: Francia, Inglaterra, España y Argentina.**
 
 ## Estructura del proyecto
 
